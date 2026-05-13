@@ -14,6 +14,12 @@
 
 <p align="center">
   <a href="https://fruitshot-cv.vercel.app/">
+    <img alt="FruitShot CV home screen" src="docs/home-screen.png">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://fruitshot-cv.vercel.app/">
     <img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-fruitshot--cv.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white">
   </a>
   <img alt="React" src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=111111">
@@ -43,20 +49,13 @@ FruitShot CV is not just a Canvas shooter. It turns your webcam into a controlle
 - No server-side computer vision.
 - Everything runs client-side with JavaScript and WebAssembly.
 
-## Screenshot
+## Gameplay Preview
 
-Add a gameplay screenshot or GIF here after recording the Vercel demo.
+<p align="center">
+  <img alt="FruitShot CV gameplay demo" src="docs/gameplay-demo.gif">
+</p>
 
-```text
-docs/screenshot.png
-```
-
-Suggested capture moments:
-
-- Home screen with animated fruit.
-- Webcam preview with hand landmarks.
-- Combo banner during gameplay.
-- Game over leaderboard split by control mode.
+The preview shows the actual Canvas game loop, fruit rendering, bomb hazards, webcam preview, and real-time hand landmark overlay.
 
 ## Features
 
@@ -269,7 +268,7 @@ Then publish the `dist` folder with your preferred Pages workflow.
 - More fruit types and power-ups.
 - Mobile landscape tuning.
 - Offline-hosted MediaPipe model assets.
-- Screenshot/GIF assets for the README.
+- More gameplay GIFs for gesture calibration and leaderboard flow.
 
 ## License
 
